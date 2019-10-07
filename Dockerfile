@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.13.1-alpine
 
 COPY ./api /go/src/api
 
